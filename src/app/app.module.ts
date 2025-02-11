@@ -13,7 +13,6 @@ import { ToastModule } from 'primeng/toast';
 import { HomeComponent } from './modules/home/home.component';
 import { MessageService } from 'primeng/api';
 
-
 @NgModule({
     declarations: [
         AppComponent,

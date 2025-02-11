@@ -1,3 +1,4 @@
+import { SharedModule } from './../../shared/shared.module';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
@@ -27,6 +28,9 @@ import { CookieService } from 'ngx-cookie-service';
     ToolbarModule,
     CardModule,
     ToastModule,
+    //Shared
+    NgModule,
+    SharedModule,
   ],
   providers: [MessageService, CookieService],
 })
